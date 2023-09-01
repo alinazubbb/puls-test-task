@@ -9,32 +9,6 @@ export default makeStyles((theme: Theme) => ({
     borderRadius: theme.shape.borderRadius,
     boxShadow: '0 5px 25px rgba(227, 230, 236, 0.6)',
   },
-  loansListHeader: {
-    marginBottom: theme.spacing(4),
-    padding: theme.spacing(2, 6),
-    maxWidth: 800,
-    borderRadius: theme.shape.borderRadius,
-    fontSize: 12,
-    color: theme.palette.text.secondary,
-    backgroundColor: theme.palette.background.default,
-  },
-  loansWarning: {
-    marginBottom: theme.spacing(4),
-    padding: theme.spacing(3),
-    maxWidth: 540,
-    borderRadius: theme.shape.borderRadius,
-    backgroundColor: '#DCEDDD',
-
-    '& .MuiTypography-root': {
-      fontSize: 12,
-      lineHeight: 1.33,
-    },
-  },
-  icon: {
-    width: 24,
-    height: 24,
-    fontSize: 20,
-  },
   name: {
     minWidth: 150,
     fontSize: 14,
@@ -105,13 +79,6 @@ export default makeStyles((theme: Theme) => ({
   amountBox: {
     [theme.breakpoints.up('md')]: {
       textAlign: 'right',
-    },
-  },
-  description: {
-    ...theme.typography.overline,
-
-    '&.success': {
-      color: theme.palette.info.dark,
     },
   },
 }));
